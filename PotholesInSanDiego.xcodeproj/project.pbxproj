@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C855DC301BF5AAC200830940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855DC2F1BF5AAC200830940 /* AppDelegate.swift */; };
+		C855DC321BF5AAC200830940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855DC311BF5AAC200830940 /* ViewController.swift */; };
+		C855DC351BF5AAC200830940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C855DC331BF5AAC200830940 /* Main.storyboard */; };
+		C855DC371BF5AAC200830940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C855DC361BF5AAC200830940 /* Assets.xcassets */; };
+		C855DC3A1BF5AAC200830940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C855DC381BF5AAC200830940 /* LaunchScreen.storyboard */; };
+		C855DC451BF5AAC200830940 /* PotholesInSanDiegoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855DC441BF5AAC200830940 /* PotholesInSanDiegoTests.swift */; };
+		C855DC501BF5AAC200830940 /* PotholesInSanDiegoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C855DC4F1BF5AAC200830940 /* PotholesInSanDiegoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C855DC411BF5AAC200830940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C855DC241BF5AAC100830940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C855DC2B1BF5AAC100830940;
+			remoteInfo = PotholesInSanDiego;
+		};
+		C855DC4C1BF5AAC200830940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C855DC241BF5AAC100830940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C855DC2B1BF5AAC100830940;
+			remoteInfo = PotholesInSanDiego;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C855DC2C1BF5AAC100830940 /* PotholesInSanDiego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PotholesInSanDiego.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C855DC2F1BF5AAC200830940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C855DC311BF5AAC200830940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C855DC341BF5AAC200830940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C855DC361BF5AAC200830940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C855DC391BF5AAC200830940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C855DC3B1BF5AAC200830940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C855DC401BF5AAC200830940 /* PotholesInSanDiegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotholesInSanDiegoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C855DC441BF5AAC200830940 /* PotholesInSanDiegoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotholesInSanDiegoTests.swift; sourceTree = "<group>"; };
+		C855DC461BF5AAC200830940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C855DC4B1BF5AAC200830940 /* PotholesInSanDiegoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotholesInSanDiegoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C855DC4F1BF5AAC200830940 /* PotholesInSanDiegoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotholesInSanDiegoUITests.swift; sourceTree = "<group>"; };
+		C855DC511BF5AAC200830940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C855DC291BF5AAC100830940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C855DC3D1BF5AAC200830940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C855DC481BF5AAC200830940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C855DC231BF5AAC100830940 = {
+			isa = PBXGroup;
+			children = (
+				C855DC2E1BF5AAC200830940 /* PotholesInSanDiego */,
+				C855DC431BF5AAC200830940 /* PotholesInSanDiegoTests */,
+				C855DC4E1BF5AAC200830940 /* PotholesInSanDiegoUITests */,
+				C855DC2D1BF5AAC100830940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C855DC2D1BF5AAC100830940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C855DC2C1BF5AAC100830940 /* PotholesInSanDiego.app */,
+				C855DC401BF5AAC200830940 /* PotholesInSanDiegoTests.xctest */,
+				C855DC4B1BF5AAC200830940 /* PotholesInSanDiegoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C855DC2E1BF5AAC200830940 /* PotholesInSanDiego */ = {
+			isa = PBXGroup;
+			children = (
+				C855DC2F1BF5AAC200830940 /* AppDelegate.swift */,
+				C855DC311BF5AAC200830940 /* ViewController.swift */,
+				C855DC331BF5AAC200830940 /* Main.storyboard */,
+				C855DC361BF5AAC200830940 /* Assets.xcassets */,
+				C855DC381BF5AAC200830940 /* LaunchScreen.storyboard */,
+				C855DC3B1BF5AAC200830940 /* Info.plist */,
+			);
+			path = PotholesInSanDiego;
+			sourceTree = "<group>";
+		};
+		C855DC431BF5AAC200830940 /* PotholesInSanDiegoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C855DC441BF5AAC200830940 /* PotholesInSanDiegoTests.swift */,
+				C855DC461BF5AAC200830940 /* Info.plist */,
+			);
+			path = PotholesInSanDiegoTests;
+			sourceTree = "<group>";
+		};
+		C855DC4E1BF5AAC200830940 /* PotholesInSanDiegoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C855DC4F1BF5AAC200830940 /* PotholesInSanDiegoUITests.swift */,
+				C855DC511BF5AAC200830940 /* Info.plist */,
+			);
+			path = PotholesInSanDiegoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C855DC2B1BF5AAC100830940 /* PotholesInSanDiego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C855DC541BF5AAC200830940 /* Build configuration list for PBXNativeTarget "PotholesInSanDiego" */;
+			buildPhases = (
+				C855DC281BF5AAC100830940 /* Sources */,
+				C855DC291BF5AAC100830940 /* Frameworks */,
+				C855DC2A1BF5AAC100830940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PotholesInSanDiego;
+			productName = PotholesInSanDiego;
+			productReference = C855DC2C1BF5AAC100830940 /* PotholesInSanDiego.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C855DC3F1BF5AAC200830940 /* PotholesInSanDiegoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C855DC571BF5AAC200830940 /* Build configuration list for PBXNativeTarget "PotholesInSanDiegoTests" */;
+			buildPhases = (
+				C855DC3C1BF5AAC200830940 /* Sources */,
+				C855DC3D1BF5AAC200830940 /* Frameworks */,
+				C855DC3E1BF5AAC200830940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C855DC421BF5AAC200830940 /* PBXTargetDependency */,
+			);
+			name = PotholesInSanDiegoTests;
+			productName = PotholesInSanDiegoTests;
+			productReference = C855DC401BF5AAC200830940 /* PotholesInSanDiegoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C855DC4A1BF5AAC200830940 /* PotholesInSanDiegoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C855DC5A1BF5AAC200830940 /* Build configuration list for PBXNativeTarget "PotholesInSanDiegoUITests" */;
+			buildPhases = (
+				C855DC471BF5AAC200830940 /* Sources */,
+				C855DC481BF5AAC200830940 /* Frameworks */,
+				C855DC491BF5AAC200830940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C855DC4D1BF5AAC200830940 /* PBXTargetDependency */,
+			);
+			name = PotholesInSanDiegoUITests;
+			productName = PotholesInSanDiegoUITests;
+			productReference = C855DC4B1BF5AAC200830940 /* PotholesInSanDiegoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C855DC241BF5AAC100830940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kranthi Kumar Gurrala";
+				TargetAttributes = {
+					C855DC2B1BF5AAC100830940 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = M354936K29;
+					};
+					C855DC3F1BF5AAC200830940 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = M354936K29;
+						TestTargetID = C855DC2B1BF5AAC100830940;
+					};
+					C855DC4A1BF5AAC200830940 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = M354936K29;
+						TestTargetID = C855DC2B1BF5AAC100830940;
+					};
+				};
+			};
+			buildConfigurationList = C855DC271BF5AAC100830940 /* Build configuration list for PBXProject "PotholesInSanDiego" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C855DC231BF5AAC100830940;
+			productRefGroup = C855DC2D1BF5AAC100830940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C855DC2B1BF5AAC100830940 /* PotholesInSanDiego */,
+				C855DC3F1BF5AAC200830940 /* PotholesInSanDiegoTests */,
+				C855DC4A1BF5AAC200830940 /* PotholesInSanDiegoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C855DC2A1BF5AAC100830940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C855DC3A1BF5AAC200830940 /* LaunchScreen.storyboard in Resources */,
+				C855DC371BF5AAC200830940 /* Assets.xcassets in Resources */,
+				C855DC351BF5AAC200830940 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C855DC3E1BF5AAC200830940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C855DC491BF5AAC200830940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C855DC281BF5AAC100830940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C855DC321BF5AAC200830940 /* ViewController.swift in Sources */,
+				C855DC301BF5AAC200830940 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C855DC3C1BF5AAC200830940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C855DC451BF5AAC200830940 /* PotholesInSanDiegoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C855DC471BF5AAC200830940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C855DC501BF5AAC200830940 /* PotholesInSanDiegoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C855DC421BF5AAC200830940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C855DC2B1BF5AAC100830940 /* PotholesInSanDiego */;
+			targetProxy = C855DC411BF5AAC200830940 /* PBXContainerItemProxy */;
+		};
+		C855DC4D1BF5AAC200830940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C855DC2B1BF5AAC100830940 /* PotholesInSanDiego */;
+			targetProxy = C855DC4C1BF5AAC200830940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C855DC331BF5AAC200830940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C855DC341BF5AAC200830940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C855DC381BF5AAC200830940 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C855DC391BF5AAC200830940 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C855DC521BF5AAC200830940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C855DC531BF5AAC200830940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C855DC551BF5AAC200830940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PotholesInSanDiego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.PotholesInSanDiego;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C855DC561BF5AAC200830940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PotholesInSanDiego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.PotholesInSanDiego;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C855DC581BF5AAC200830940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PotholesInSanDiegoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.PotholesInSanDiegoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PotholesInSanDiego.app/PotholesInSanDiego";
+			};
+			name = Debug;
+		};
+		C855DC591BF5AAC200830940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PotholesInSanDiegoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.PotholesInSanDiegoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PotholesInSanDiego.app/PotholesInSanDiego";
+			};
+			name = Release;
+		};
+		C855DC5B1BF5AAC200830940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PotholesInSanDiegoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.PotholesInSanDiegoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PotholesInSanDiego;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C855DC5C1BF5AAC200830940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PotholesInSanDiegoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdsu.cs646.PotholesInSanDiegoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PotholesInSanDiego;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C855DC271BF5AAC100830940 /* Build configuration list for PBXProject "PotholesInSanDiego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C855DC521BF5AAC200830940 /* Debug */,
+				C855DC531BF5AAC200830940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C855DC541BF5AAC200830940 /* Build configuration list for PBXNativeTarget "PotholesInSanDiego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C855DC551BF5AAC200830940 /* Debug */,
+				C855DC561BF5AAC200830940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C855DC571BF5AAC200830940 /* Build configuration list for PBXNativeTarget "PotholesInSanDiegoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C855DC581BF5AAC200830940 /* Debug */,
+				C855DC591BF5AAC200830940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C855DC5A1BF5AAC200830940 /* Build configuration list for PBXNativeTarget "PotholesInSanDiegoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C855DC5B1BF5AAC200830940 /* Debug */,
+				C855DC5C1BF5AAC200830940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C855DC241BF5AAC100830940 /* Project object */;
+}
